@@ -11,7 +11,7 @@ export default function List({ payload }) {
     <div className="app-container">
       <h1>StarWars</h1>
       {!payload ? (
-        <p>loading...</p>
+        <p>loading....</p>
       ) : (
         <>
           {payload.map((user, index) => {
