@@ -1,0 +1,28 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-btn {
+  display: block;
+  width: 100%;
+}
+.list-btn h2 {
+  margin: 0 !important;
+  font-weight: 400;
+}
+h1,
+p {
+  font-family: Lato;
+}
+.list-btn {
+  background: rgb(187, 187, 187);
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
